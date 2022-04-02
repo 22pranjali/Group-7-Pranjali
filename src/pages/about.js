@@ -1,8 +1,8 @@
 import React from "react"
-
-export default function About() {
-  return (<div>
+import Layout from "../components/Layout/Layout"
+const About = () => {
+  return <Layout>
     <h1 className="text-success">About</h1>
-    </div>
-  )
+  </Layout>
 }
+export default About

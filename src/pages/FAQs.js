@@ -1,8 +1,8 @@
 import React from "react"
 import Layout from "../components/Layout/Layout"
-const Contact = () => {
+const FAQs = () => {
   return <Layout>
-      Contact
+    <h1 className="text-success">FAQs</h1>
   </Layout>
 }
-export default Contact
+export default FAQs
