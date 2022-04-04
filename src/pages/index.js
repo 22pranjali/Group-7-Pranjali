@@ -7,10 +7,15 @@ import Team from "../components/Team/Team"
 const Index = () => {
   return (
     <Layout>
+      <div class="bg-info">
       <Hero/>
+      </div>
       <Features/>
+      <div class="bg-danger">
       <Team/>
+      </div>
     </Layout>
+    
   )
 }
 

@@ -1,6 +1,4 @@
 import React from "react"
-import { Link } from "gatsby"
-import { Facebook, Instagram, Linkedin } from "react-bootstrap-icons"
 import Image from "../Images/Images"
 
 const Items = [
