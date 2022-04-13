@@ -1,7 +1,15 @@
 import React from "react"
 import Layout from "../components/Layout/Layout"
+import Image from "../components/Images/Images"
 const Contact = () => {
   return <Layout>
+     <Image
+            className="d-block mx-lg-auto img-fluid"
+            filename="contact1.jpg"
+            alt="1"
+           
+          />
+      <br></br>
 
     <table class="table table-hover g-4 py-5 text-center">
   <thead>
@@ -74,7 +82,7 @@ const Contact = () => {
     </tr>
   </tbody>
 </table>
-<div class="card border-success mb-3">
+<div class="card border-success mb-3 bg-danger bg-opacity 25">
   <div class="card-body">
     <h4 class="card-title ">Address</h4>
     <p class="card-text"></p>

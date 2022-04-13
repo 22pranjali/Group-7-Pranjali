@@ -1,7 +1,7 @@
 import React from "react"
 import Layout from "../components/Layout/Layout"
 import Image from "../components/Images/Images"
-const Computer = () => {
+const bittu = () => {
   return <Layout>
     <div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
     <div class="carousel-indicators">
@@ -17,13 +17,7 @@ const Computer = () => {
             alt="1"
           />
 
-        <div class="container">
-          <div class="carousel-caption text-start">
-            <h1>Example headline.</h1>
-            <p>Some representative placeholder content for the first slide of the carousel.</p>
-            <p><a class="btn btn-lg btn-primary" href="#">Sign up today</a></p>
-          </div>
-        </div>
+       
       </div>
       <div class="carousel-item">
       <Image
@@ -33,13 +27,7 @@ const Computer = () => {
             alt="1"
           />
 
-        <div class="container">
-          <div class="carousel-caption">
-            <h1>Another example headline.</h1>
-            <p>Some representative placeholder content for the second slide of the carousel.</p>
-            <p><a class="btn btn-lg btn-primary" href="#">Learn more</a></p>
-          </div>
-        </div>
+       
       </div>
       <div class="carousel-item">
       <Image
@@ -48,13 +36,7 @@ const Computer = () => {
             filename="computer3.jpg"
             alt="1"
           />
-        <div class="container">
-          <div class="carousel-caption text-end">
-            <h1>One more for good measure.</h1>
-            <p>Some representative placeholder content for the third slide of this carousel.</p>
-            <p><a class="btn btn-lg btn-primary" href="#">Browse gallery</a></p>
-          </div>
-        </div>
+       
       </div>
     </div>
     <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
@@ -66,7 +48,7 @@ const Computer = () => {
       <span class="visually-hidden">Next</span>
     </button>
   </div>
-  <main class="px-3 text-center">
+  <main class="px-3 text-center bg-info">
     <br></br>
     <br></br>
     <h1>Course Overview</h1>
@@ -76,7 +58,7 @@ At one of the world’s best schools for computer science, you'll develop a broa
 After first year, you can choose a major in Data Science. You can also gain two years of paid work experience through our co-op program, the largest of its kind in North America, or fast track your degree by choosing the regular system of study.</p>
 <br></br>
 <br></br>
-<h1>Program highlights</h1>
+<h1>Program Highlights</h1>
 <p class="lead">Social and academic support. Through Waterloo’s Computer Science Club, get access to high-powered software or get social with your fellow students.
 Study your interests. With 70+ computer science courses, plus no end of options and electives, you can create a degree tailored to your specific interests.
 Available as a regular or co-op program
@@ -84,7 +66,7 @@ Graduate with a Bachelor of Computer Science or a Bachelor of Mathematics in Com
 Offered by the Faculty of Mathematics</p>
 <br></br>
 <br></br>
-<h1>What will you learn?</h1>
+<h1>What Will You Learn?</h1>
 <p class="lead">First-year courses
 You'll primarily take Mathematics and Computer Science courses to give you the foundations for your upper-year classes, along with a few electives. After first year, the majority of your required courses will be Computer Science.
 
@@ -93,12 +75,12 @@ Learn about courses you'll take for your Computer Science degree.You can add add
 Once you're a student, advisors can help you explore which minors or specializations may fit into your plans.</p>
 <br></br>
 <br></br>
-<h1>Mobile computing</h1>
+<h1>Mobile Computing</h1>
 <p class="lead">The applied approach is facilitated by an interactive classroom experience each student has their own personal laptop and the most current versions of industry standard computer programming software available through Sheridan. We offer a well-respected computer programming college credential that will give you many workplace options and pathways to further study.
 </p>
 <br></br>
 <br></br>
-<h1>Additional information</h1>
+<h1>Additional Information</h1>
 <p class="lead">Your studies will include courses in areas such as:
 
 Web development and interface design using HTML5/CSS3/Javascript/PHP and more
@@ -114,4 +96,4 @@ You'll work on your own laptop in a networked environment that provides round-th
   </main>
   </Layout>
 }
-export default Computer
+export default bittu

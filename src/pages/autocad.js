@@ -17,13 +17,7 @@ const Autocad = () => {
             alt="1"
           />
 
-        <div class="container">
-          <div class="carousel-caption text-start">
-            <h1>Example headline.</h1>
-            <p>Some representative placeholder content for the first slide of the carousel.</p>
-            <p><a class="btn btn-lg btn-primary" href="#">Sign up today</a></p>
-          </div>
-        </div>
+        
       </div>
       <div class="carousel-item">
       <Image
@@ -33,13 +27,7 @@ const Autocad = () => {
             alt="1"
           />
 
-        <div class="container">
-          <div class="carousel-caption">
-            <h1>Another example headline.</h1>
-            <p>Some representative placeholder content for the second slide of the carousel.</p>
-            <p><a class="btn btn-lg btn-primary" href="#">Learn more</a></p>
-          </div>
-        </div>
+       
       </div>
       <div class="carousel-item">
       <Image
@@ -48,13 +36,7 @@ const Autocad = () => {
             filename="autocad3.jpg"
             alt="1"
           />
-        <div class="container">
-          <div class="carousel-caption text-end">
-            <h1>One more for good measure.</h1>
-            <p>Some representative placeholder content for the third slide of this carousel.</p>
-            <p><a class="btn btn-lg btn-primary" href="#">Browse gallery</a></p>
-          </div>
-        </div>
+        
       </div>
     </div>
     <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
@@ -66,6 +48,36 @@ const Autocad = () => {
       <span class="visually-hidden">Next</span>
     </button>
   </div>
+  <main class="px-3 text-center bg-danger bg-opacity-25">
+    <br></br>
+    <br></br>
+    <h1>Course Overview</h1>
+    <p class="lead">You will learn all major tools of AutoCAD from line to polyline to trims and many more
+This course will help you in understanding the perspective, limits and units which is required for drafting a 2D drawing with AutoCAD
+You will also cover advanced tools like pedit and fillet, you will also learn tools that you can use to improve your productivity
+Course Syllabus
+On a daily basis we talk to companies expert in these domains to fine tune our curriculum.
+    </p>
+    <br></br>
+    <br></br>
+    <h1>Learning through hands-on exercises</h1>
+    <p class="lead">Earlier the architects and engineers could illustrate their ideas only by drawing with free hands. The use of pen and paper has been taken over by design software like AutoCAD. By enabling the designers to create digital designs, the ideas can now be illustrated much faster and with greater efficiency. AutoCAD, which is a computer-aided design software built by Autodesk, helps to draw 2D and 3D designs. There are some well-recognized Autocad training institutes in Banasthali Vidya Peeth, Tonk where people can learn how to use AutoCAD and soon become certified AutoCAD professionals. There are basic, intermediate, and advanced programs in AutoCAD that has been designed for different abilities and needs.</p>
+    <br></br>
+    <br></br>
+  <h1>Basic or essentials course</h1>
+  <p class="lead">This course is ideal for entry-level CAD operators, particularly those who have to work with engineers. Through this course, people can get trained on core areas that are needed for creating professional drawings using AutoCAD. A basic course in AutoCAD highly benefits people working in the architecture, construction and engineering fields.
+</p>
+<br></br>
+    <br></br>
+<h1>Intermediate course</h1>
+<p class="lead">This type of AutoCAD course is designed for more advanced learners. In this course, people learn how to zoom commands, QuickCalc, dimensioning tools for advanced drawing, external references, etc.
+</p>
+<br></br>
+    <br></br>
+<h1>Advanced course</h1>
+<p class="lead">This course will teach learners to publish and use collaboration tools. They will learn how to manage layers and use the right tools. They will also be fed to hands-on projects by professional Autocad institutes, which they can use in their portfolio while applying for jobs after the course completion.
+</p>
+  </main>
   </Layout>
 }
 export default Autocad

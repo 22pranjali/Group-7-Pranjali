@@ -8,7 +8,7 @@ const About = () => {
     
 <hr class="featurette-divider"/>
 
-    <div class="row featurette">
+    <div class="row featurette bg-success bg-opacity-25">
       <div class="col-md-7">
         <br></br>
         <h1 class="featurette-heading text-center">OVERVIEW</h1>
@@ -40,7 +40,7 @@ const About = () => {
 
 <hr class="featurette-divider"/>
 
-<div class="row featurette">
+<div class="row featurette bg-info bg-opacity-25">
   <div class="col-md-7 order-md-2">
     <br></br>
     <h1 class="featurette-heading text-center">VISION,MISION AND VALUES</h1>
@@ -73,9 +73,9 @@ We cannot be all things to all people. However, we pursue our goals with determi
 
   </div>
 </div>
-<hr class="featurette-divider"/>
+<hr class="featurette-divider "/>
 
-    <div class="row featurette">
+    <div class="row featurette bg-primary bg-opacity-25">
       <div class="col-md-7">
       <br></br>
         <h1 class="featurette-heading text-center">GENESIS</h1>
@@ -100,7 +100,7 @@ Bhaavya endeavors to accomplish this objective through a proper blend of high ac
     </div>
     <hr class="featurette-divider"/>
 
-<div class="row featurette">
+<div class="row featurette bg-info bg-opacity-25">
   <div class="col-md-7 order-md-2">
     <br></br>
     <h1 class="featurette-heading text-center">SAFETY</h1>

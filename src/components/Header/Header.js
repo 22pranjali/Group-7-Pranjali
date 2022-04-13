@@ -24,6 +24,9 @@ const Header = () => {
           <li class="btn text-warning text-decoration-none fw-bold">
             <Link class="text-warning text-decoration-none" to="/FAQs">FAQs</Link>
           </li>
+          <li class="btn text-warning text-decoration-none fw-bold">
+            <Link class="text-warning text-decoration-none" to="/Gallery">Gallery</Link>
+          </li>
           { <li class="nav-item dropdown fw-bold">
             <a class="nav-link dropdown-toggle" href="#" id="dropdown05" data-bs-toggle="dropdown" aria-expanded="false">Courses</a>
             <ul class="dropdown-menu" aria-labelledby="dropdown05">

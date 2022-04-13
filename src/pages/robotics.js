@@ -66,6 +66,26 @@ const Robotics = () => {
       <span class="visually-hidden">Next</span>
     </button>
   </div>
+  <main class="px-3 text-center bg-info">
+    <br></br>
+    <br></br>
+    <h1>Course Overview</h1>
+    <p class="lead">Courses in Robotics are offered from the undergraduate level to graduate level. The courses listed below make up a core part of the Robotics program, but as part of the College of Engineering and University of Michigan, there are also many cross-listed courses and electives from other programs that are available.</p>
+    <br></br>
+    <br></br>
+    <h1>Couses Offered</h1>
+    <p class="lead">Graduate degrees in Robotics require a breadth of knowledge from courses in sensing, reasoning, and acting. There are many courses from other departments that meet these Robotics degree requirements.</p>
+    <br></br>
+    <br></br>
+    <h1>Robotics Mechanisms</h1>
+    <p class="lead">Hands-on design, build, and operations of robotic systems. Students, in teams, will build a mobile manipulation robot that can be teleoperated. Students will develop maker-shop skills (3D printing, laser cutting, mill, etc.), programming (C++) and controls, system design and integration, and technical writing. Culmination in friendly competition and final report. CourseProfile (ATLAS)</p>
+    <br></br>
+    <br></br>
+    <h1> Robot Sensors and Signals</h1>
+    <p class="lead">Covers practical analog and digital electronics for robotics. Students will: prototype, test, and debug various analog and digital circuits; interface a microcontroller to external circuits; learn to design and prototype circuit boards; interpret data recorded from physical circuits. An exploration of circuits and embedded systems that supports integrated robotic design.</p>
+    <br></br>
+    <br></br>
+  </main>
   </Layout>
 }
 export default Robotics
